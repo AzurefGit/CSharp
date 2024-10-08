@@ -1,0 +1,10 @@
+D:\studia\cSharp\PD1\PD1\bin\Debug\PD1.exe.config
+D:\studia\cSharp\PD1\PD1\bin\Debug\PD1.exe
+D:\studia\cSharp\PD1\PD1\bin\Debug\PD1.pdb
+D:\studia\cSharp\PD1\PD1\obj\Debug\PD1.csproj.AssemblyReference.cache
+D:\studia\cSharp\PD1\PD1\obj\Debug\PD1.Form1.resources
+D:\studia\cSharp\PD1\PD1\obj\Debug\PD1.Properties.Resources.resources
+D:\studia\cSharp\PD1\PD1\obj\Debug\PD1.csproj.GenerateResource.cache
+D:\studia\cSharp\PD1\PD1\obj\Debug\PD1.csproj.CoreCompileInputs.cache
+D:\studia\cSharp\PD1\PD1\obj\Debug\PD1.exe
+D:\studia\cSharp\PD1\PD1\obj\Debug\PD1.pdb
