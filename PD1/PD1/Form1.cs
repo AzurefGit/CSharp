@@ -26,6 +26,7 @@ namespace PD1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //sortowanie bombelkowe (dorobić generator liczb (numeryCapDown - rozmiar tablicy (wpisać ręcznie)) i ile trwało sortowanie(couting time) (radio button))
             int[] tab = {2, 5, 1, 2, -1};
             label1.Text += "   ||   ";
             int temp;

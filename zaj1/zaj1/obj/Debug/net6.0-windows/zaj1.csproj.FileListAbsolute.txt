@@ -1,0 +1,17 @@
+D:\175271\zajecia1\zaj1\zaj1\bin\Debug\net6.0-windows\zaj1.exe
+D:\175271\zajecia1\zaj1\zaj1\bin\Debug\net6.0-windows\zaj1.deps.json
+D:\175271\zajecia1\zaj1\zaj1\bin\Debug\net6.0-windows\zaj1.runtimeconfig.json
+D:\175271\zajecia1\zaj1\zaj1\bin\Debug\net6.0-windows\zaj1.dll
+D:\175271\zajecia1\zaj1\zaj1\bin\Debug\net6.0-windows\zaj1.pdb
+D:\175271\zajecia1\zaj1\zaj1\obj\Debug\net6.0-windows\zaj1.csproj.AssemblyReference.cache
+D:\175271\zajecia1\zaj1\zaj1\obj\Debug\net6.0-windows\zaj1.Form1.resources
+D:\175271\zajecia1\zaj1\zaj1\obj\Debug\net6.0-windows\zaj1.csproj.GenerateResource.cache
+D:\175271\zajecia1\zaj1\zaj1\obj\Debug\net6.0-windows\zaj1.GeneratedMSBuildEditorConfig.editorconfig
+D:\175271\zajecia1\zaj1\zaj1\obj\Debug\net6.0-windows\zaj1.AssemblyInfoInputs.cache
+D:\175271\zajecia1\zaj1\zaj1\obj\Debug\net6.0-windows\zaj1.AssemblyInfo.cs
+D:\175271\zajecia1\zaj1\zaj1\obj\Debug\net6.0-windows\zaj1.csproj.CoreCompileInputs.cache
+D:\175271\zajecia1\zaj1\zaj1\obj\Debug\net6.0-windows\zaj1.dll
+D:\175271\zajecia1\zaj1\zaj1\obj\Debug\net6.0-windows\refint\zaj1.dll
+D:\175271\zajecia1\zaj1\zaj1\obj\Debug\net6.0-windows\zaj1.pdb
+D:\175271\zajecia1\zaj1\zaj1\obj\Debug\net6.0-windows\zaj1.genruntimeconfig.cache
+D:\175271\zajecia1\zaj1\zaj1\obj\Debug\net6.0-windows\ref\zaj1.dll

@@ -1,0 +1,11 @@
+D:\175271\cSharp\zaj2\zaj2\bin\Debug\zaj2.exe.config
+D:\175271\cSharp\zaj2\zaj2\bin\Debug\zaj2.exe
+D:\175271\cSharp\zaj2\zaj2\bin\Debug\zaj2.pdb
+D:\175271\cSharp\zaj2\zaj2\obj\Debug\zaj2.csproj.AssemblyReference.cache
+D:\175271\cSharp\zaj2\zaj2\obj\Debug\zaj2.csproj.SuggestedBindingRedirects.cache
+D:\175271\cSharp\zaj2\zaj2\obj\Debug\zaj2.Form1.resources
+D:\175271\cSharp\zaj2\zaj2\obj\Debug\zaj2.Properties.Resources.resources
+D:\175271\cSharp\zaj2\zaj2\obj\Debug\zaj2.csproj.GenerateResource.cache
+D:\175271\cSharp\zaj2\zaj2\obj\Debug\zaj2.csproj.CoreCompileInputs.cache
+D:\175271\cSharp\zaj2\zaj2\obj\Debug\zaj2.exe
+D:\175271\cSharp\zaj2\zaj2\obj\Debug\zaj2.pdb
