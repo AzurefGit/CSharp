@@ -12,16 +12,28 @@ namespace zaj2
 {
     public partial class Form1 : Form
     {
-        int[] tab = {3,2,1,4};
-        
+        private int[] tab;
         public Form1()
         {
             InitializeComponent();
+            tab = new int[10];
         }
+
+        public void RandTab(int n, int a, int b)
+        {
+            tab = new int[n];
+            Random rand = new Random();
+            for (int i = 0; i < n; i++)
+            {
+                tab[i] = rand.Next(a, b);
+            }
+        }
+       
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //[3,2]
+            
+
         }
 
         static void InsertSort(int[] tab)
@@ -30,35 +42,55 @@ namespace zaj2
             for (int i = 1; i < tab.Length; i++)
             {
                 int j = i;
-                while (j > 1 && tab[j - 1] > tab[j])
+                while (j > 0 && tab[j - 1] > tab[j])
                 {
-                    if (tab[j] < tab[j - 1])
-                    {
-                        temp = tab[j - 1];
-                        tab[j - 1] = tab[j];
-                        tab[j] = temp;
-                        
-                    }
-                    j--;
+                 temp = tab[j - 1];
+                 tab[j - 1] = tab[j];
+                 tab[j] = temp; 
+                 j--;
                 }
             }
         }
 
+        static void MergeSort(int[] tab, int p, int r)
+        {
+            if(p < r)
+            {
+                int q = (p + r) / 2;
+                MergeSort(tab, p, q);
+                MergeSort(tab, q + 1, r);
+                Merge(tab, p, q, r);
+            }
+            
+        }
+        static void Merge(int[] tab, int p, int q, int r)
+        {
+
+        }
+
         static string TabToString(int[] tab)
         {
-            string lista = "";
-            for(int i = 0; i < tab.Length; i++)
-            {
-                lista += tab[i] + ", ";
-            }
-            return lista;
+            return string.Join(", ", tab);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            RandTab(5, 1, 10);
             label1.Text = TabToString(tab);
-            InsertSort(tab);
-            label2.Text = TabToString(tab);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int[] sTab = (int[])tab.Clone();
+            InsertSort(sTab);
+            label2.Text = TabToString(sTab);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int[] sTab = (int[])tab.Clone();
+            MergeSort(sTab, 0, sTab.Length - 1);
+            label3.Text = TabToString(sTab);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -70,5 +102,8 @@ namespace zaj2
         {
             
         }
+
+        
+
     }
 }
