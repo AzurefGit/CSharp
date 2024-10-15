@@ -54,18 +54,49 @@ namespace zaj2
 
         static void MergeSort(int[] tab, int p, int r)
         {
-            if(p < r)
+            if (p < r)
             {
                 int q = (p + r) / 2;
                 MergeSort(tab, p, q);
                 MergeSort(tab, q + 1, r);
                 Merge(tab, p, q, r);
             }
-            
         }
+
         static void Merge(int[] tab, int p, int q, int r)
         {
+            int lIndex = p;
+            int rIndex = q + 1;
 
+            int[] merged = new int[r - p + 1];
+            int mergedIndex = 0;
+
+            while (lIndex <= q && rIndex <= r)
+            {
+                if (tab[lIndex] <= tab[rIndex])
+                {
+                    merged[mergedIndex++] = tab[lIndex++];
+                }
+                else
+                {
+                    merged[mergedIndex++] = tab[rIndex++];
+                }
+            }
+
+            while (lIndex <= q)
+            {
+                merged[mergedIndex++] = tab[lIndex++];
+            }
+
+            while (rIndex <= r)
+            {
+                merged[mergedIndex++] = tab[rIndex++];
+            }
+
+            for (int i = 0; i < merged.Length; i++)
+            {
+                tab[p + i] = merged[i];
+            }
         }
 
         static string TabToString(int[] tab)

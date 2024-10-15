@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\studia\\cSharp\\zaj2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|D:\\studia\\cSharp\\zaj2\\zaj2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|d:\\studia\\csharp\\zaj2\\zaj2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|solutionrelative:zaj2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|d:\\studia\\csharp\\zaj2\\zaj2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|D:\\studia\\cSharp\\zaj2\\zaj2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|solutionrelative:zaj2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "zaj2\\Form1.cs",
               "ToolTip": "D:\\studia\\cSharp\\zaj2\\zaj2\\Form1.cs",
               "RelativeToolTip": "zaj2\\Form1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAhwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T10:24:54.29Z",
               "EditorCaption": ""
@@ -42,8 +42,7 @@
               "ToolTip": "D:\\studia\\cSharp\\zaj2\\zaj2\\Form1.cs [Projekt]",
               "RelativeToolTip": "zaj2\\Form1.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:24:54.615Z",
-              "EditorCaption": " [Projekt]"
+              "WhenOpened": "2024-10-14T10:24:54.615Z"
             }
           ]
         }
