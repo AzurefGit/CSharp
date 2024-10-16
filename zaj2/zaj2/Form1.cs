@@ -12,11 +12,31 @@ namespace zaj2
 {
     public partial class Form1 : Form
     {
-        private int[] tab;
+        int[] tab = null;
+        int[] Tab
+        {
+            get 
+            { 
+                return tab;
+            }
+            set 
+            {
+                tab = value;
+                if (value != null)
+                {
+                    button2.Enabled = true;
+                    button3.Enabled = true;
+                }
+                else
+                {
+                    button2.Enabled = false;
+                    button3.Enabled = false;
+                }
+            }
+        }
         public Form1()
         {
             InitializeComponent();
-            tab = new int[10];
         }
 
         public void RandTab(int n, int a, int b)
@@ -39,6 +59,8 @@ namespace zaj2
         static void InsertSort(int[] tab)
         {
             int temp;
+            
+            //Tab
             for (int i = 1; i < tab.Length; i++)
             {
                 int j = i;
@@ -106,7 +128,7 @@ namespace zaj2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            RandTab(5, 1, 10);
+            RandTab(11, 1, 10);
             label1.Text = TabToString(tab);
         }
 
