@@ -4,9 +4,13 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace zaj2
 {
@@ -22,45 +26,59 @@ namespace zaj2
             set 
             {
                 tab = value;
-                if (value != null)
-                {
-                    button2.Enabled = true;
-                    button3.Enabled = true;
-                }
-                else
-                {
-                    button2.Enabled = false;
-                    button3.Enabled = false;
-                }
+                bool isTabEmpty = tab == null || tab.Length == 0;
+                button3.Enabled = !isTabEmpty;
+                button4.Enabled = !isTabEmpty;
+                button5.Enabled = !isTabEmpty;
             }
         }
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         public void RandTab(int n, int a, int b)
         {
-            tab = new int[n];
+            Tab = new int[n];
             Random rand = new Random();
             for (int i = 0; i < n; i++)
             {
                 tab[i] = rand.Next(a, b);
             }
         }
-       
+
+        public void Convert()
+        {
+            string input = textBox1.Text;
+            Tab = input.Split(',', ' ').Select(int.Parse).ToArray();
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            Tab = new int[0];
+        }
 
+        static void BubbleSort(int[] tab)
+        {
+            int temp;
+            for (int i = 0; i < tab.Length; i++)
+            {
+                for (int j = 0; j < tab.Length - 1; j++)
+                {
+                    if (tab[j] > tab[j + 1])
+                    {
+                        temp = tab[j + 1];
+                        tab[j + 1] = tab[j];
+                        tab[j] = temp;
+                    }
+                }
+            }
         }
 
         static void InsertSort(int[] tab)
         {
             int temp;
-            
-            //Tab
             for (int i = 1; i < tab.Length; i++)
             {
                 int j = i;
@@ -121,29 +139,53 @@ namespace zaj2
             }
         }
 
-        static string TabToString(int[] tab)
+        static string TabToString(int[] tab, System.Windows.Forms.Label label)
         {
-            return string.Join(", ", tab);
+            string text = string.Join(", ", tab);
+            Size textSize = TextRenderer.MeasureText(text, label.Font);
+
+            if (textSize.Width > label.Width)
+            {
+                string shortText = text;
+                while (textSize.Width > label.Width && shortText.Length > 0)
+                {
+                    shortText = shortText.Substring(0, shortText.Length - 1);
+                    textSize = TextRenderer.MeasureText(shortText + "...", label.Font);
+                }
+                return shortText + "...";
+            }
+            return text;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            RandTab(11, 1, 10);
-            label1.Text = TabToString(tab);
+            RandTab((int)numericUpDown1.Value, 0, 500);
+            label1.Text = TabToString(tab, label1);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int[] sTab = (int[])tab.Clone();
-            InsertSort(sTab);
-            label2.Text = TabToString(sTab);
+            Convert();
+            label2.Text = TabToString(tab, label2);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int[] sTab = (int[])tab.Clone();
+            int[] sTab = (int[])Tab.Clone();
+            BubbleSort(sTab);
+            label5.Text = TabToString(sTab, label5);
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int[] sTab = (int[])Tab.Clone();
+            InsertSort(sTab);
+            label5.Text = TabToString(sTab, label5);
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int[] sTab = (int[])Tab.Clone();
             MergeSort(sTab, 0, sTab.Length - 1);
-            label3.Text = TabToString(sTab);
+            label5.Text = TabToString(sTab, label5);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -156,7 +198,11 @@ namespace zaj2
             
         }
 
-        
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
 
+        }
+
+        
     }
 }
