@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
@@ -172,20 +173,29 @@ namespace zaj2
         private void button3_Click(object sender, EventArgs e)
         {
             int[] sTab = (int[])Tab.Clone();
+            var watch = System.Diagnostics.Stopwatch.StartNew();
             BubbleSort(sTab);
+            watch.Stop();
             label5.Text = TabToString(sTab, label5);
+            label4.Text = watch.Elapsed.TotalMilliseconds.ToString();
         }
         private void button4_Click(object sender, EventArgs e)
         {
             int[] sTab = (int[])Tab.Clone();
+            var watch = System.Diagnostics.Stopwatch.StartNew();
             InsertSort(sTab);
+            watch.Stop();
             label5.Text = TabToString(sTab, label5);
+            label4.Text = watch.Elapsed.TotalMilliseconds.ToString();
         }
         private void button5_Click(object sender, EventArgs e)
         {
             int[] sTab = (int[])Tab.Clone();
+            var watch = System.Diagnostics.Stopwatch.StartNew();
             MergeSort(sTab, 0, sTab.Length - 1);
+            watch.Stop();
             label5.Text = TabToString(sTab, label5);
+            label4.Text = watch.Elapsed.TotalMilliseconds.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -203,6 +213,9 @@ namespace zaj2
 
         }
 
-        
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

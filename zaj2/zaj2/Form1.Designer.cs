@@ -97,9 +97,10 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label3.Location = new System.Drawing.Point(64, 283);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(134, 20);
+            this.label3.Size = new System.Drawing.Size(169, 20);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Czas sortowania: ";
+            this.label3.Text = "Czas sortowania (ms): ";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button4
             // 
@@ -115,7 +116,7 @@
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(441, 59);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(46, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(42, 20);
             this.numericUpDown1.TabIndex = 8;
             // 
             // textBox1
@@ -140,7 +141,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(204, 283);
+            this.label4.Location = new System.Drawing.Point(223, 283);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 20);
             this.label4.TabIndex = 11;
