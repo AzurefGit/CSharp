@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="List.cs" />
     <Compile Include="Node.cs" />
+    <Compile Include="NodeT.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tree.cs" />
