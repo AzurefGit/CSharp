@@ -28,5 +28,14 @@ namespace zaj2
         public NodeT prawe;
         public NodeT rodzic;
         public int data;
+
+        public NodeT(int data)
+        {
+            lewe = null;
+            prawe = null;
+            rodzic = null;
+            this.data = data;
+        }
     }
+
 }

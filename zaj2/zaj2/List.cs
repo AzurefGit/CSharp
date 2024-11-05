@@ -14,9 +14,9 @@ namespace zaj2
         public Node tail;
         public int count;
 
-        public void AddFirst(int liczba)
+        public void AddFirst(int num)
         {
-            Node n = new Node(liczba);
+            Node n = new Node(num);
             if(tail == null)
             {
                 head = n;
@@ -31,9 +31,9 @@ namespace zaj2
             count++;
         }
 
-        public void AddLast(int liczba)
+        public void AddLast(int num)
         {
-            Node n = new Node(liczba);
+            Node n = new Node(num);
             if (tail == null)
             {
                 head = n;
@@ -88,27 +88,22 @@ namespace zaj2
             }
             MessageBox.Show(lista);
         }
-
-        //    AddFirst(int data){return }
-        //    AddLast(int data)
-        //    Node/RemoveFirst()
-        //    Node/RemoveLast()
         //    Get(int n){return int}
     }
 
-    class classMain
-    {
-        static void Main()
-        {
-            List l1 = new List();
-            l1.AddLast(2);
-            l1.AddLast(1);
-            l1.AddFirst(5);
+    //class classMain
+    //{
+    //    static void Main()
+    //    {
+    //        List l1 = new List();
+    //        l1.AddLast(2);
+    //        l1.AddLast(1);
+    //        l1.AddFirst(5);
 
-            l1.RemoveLast();
-            l1.RemoveFirst();
-            l1.PrintAllElements();
+    //        l1.RemoveLast();
+    //        l1.RemoveFirst();
+    //        l1.PrintAllElements();
 
-        }
-    }
+    //    }
+    //}
 }
