@@ -88,7 +88,6 @@ namespace zaj2
             }
             MessageBox.Show(lista);
         }
-        //    Get(int n){return int}
     }
 
     //class classMain
