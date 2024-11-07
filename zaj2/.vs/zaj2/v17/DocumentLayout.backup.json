@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|solutionrelative:zaj2\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|d:\\studia\\csharp\\zaj2\\zaj2\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|D:\\studia\\cSharp\\zaj2\\zaj2\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|solutionrelative:zaj2\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|D:\\studia\\cSharp\\zaj2\\zaj2\\nodet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|solutionrelative:zaj2\\nodet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|D:\\studia\\cSharp\\zaj2\\zaj2\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,8 +38,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NodeT.cs",
+              "DocumentMoniker": "D:\\studia\\cSharp\\zaj2\\zaj2\\NodeT.cs",
+              "RelativeDocumentMoniker": "zaj2\\NodeT.cs",
+              "ToolTip": "D:\\studia\\cSharp\\zaj2\\zaj2\\NodeT.cs",
+              "RelativeToolTip": "zaj2\\NodeT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T16:59:34.658Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,7 +60,7 @@
               "RelativeDocumentMoniker": "zaj2\\Tree.cs",
               "ToolTip": "D:\\studia\\cSharp\\zaj2\\zaj2\\Tree.cs",
               "RelativeToolTip": "zaj2\\Tree.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAUwC4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T14:35:55.444Z",
               "EditorCaption": ""
@@ -57,14 +73,14 @@
               "RelativeDocumentMoniker": "zaj2\\List.cs",
               "ToolTip": "D:\\studia\\cSharp\\zaj2\\zaj2\\List.cs",
               "RelativeToolTip": "zaj2\\List.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwFkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T14:17:29.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\studia\\cSharp\\zaj2\\zaj2\\Program.cs",
               "RelativeDocumentMoniker": "zaj2\\Program.cs",
@@ -72,25 +88,23 @@
               "RelativeToolTip": "zaj2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T12:12:50.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T12:12:50.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Node.cs",
               "DocumentMoniker": "D:\\studia\\cSharp\\zaj2\\zaj2\\Node.cs",
               "RelativeDocumentMoniker": "zaj2\\Node.cs",
               "ToolTip": "D:\\studia\\cSharp\\zaj2\\zaj2\\Node.cs",
               "RelativeToolTip": "zaj2\\Node.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T14:17:27.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T14:17:27.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\studia\\cSharp\\zaj2\\zaj2\\Form1.cs",
               "RelativeDocumentMoniker": "zaj2\\Form1.cs",
@@ -98,20 +112,18 @@
               "RelativeToolTip": "zaj2\\Form1.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAAAYwLUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:24:54.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T10:24:54.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Projekt]",
               "DocumentMoniker": "D:\\studia\\cSharp\\zaj2\\zaj2\\Form1.cs",
               "RelativeDocumentMoniker": "zaj2\\Form1.cs",
               "ToolTip": "D:\\studia\\cSharp\\zaj2\\zaj2\\Form1.cs [Projekt]",
               "RelativeToolTip": "zaj2\\Form1.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:24:54.615Z",
-              "EditorCaption": " [Projekt]"
+              "WhenOpened": "2024-10-14T10:24:54.615Z"
             }
           ]
         }
