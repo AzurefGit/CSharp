@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\studia\\cSharp\\zaj2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|d:\\studia\\csharp\\zaj2\\zaj2\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|D:\\studia\\cSharp\\zaj2\\zaj2\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|solutionrelative:zaj2\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|d:\\studia\\csharp\\zaj2\\zaj2\\nodet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|solutionrelative:zaj2\\nodet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|D:\\studia\\cSharp\\zaj2\\zaj2\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|solutionrelative:zaj2\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|D:\\studia\\cSharp\\zaj2\\zaj2\\nodet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|solutionrelative:zaj2\\nodet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F667B962-7362-4103-A54C-CBD59788B34C}|zaj2\\zaj2.csproj|D:\\studia\\cSharp\\zaj2\\zaj2\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "NodeT.cs",
               "DocumentMoniker": "D:\\studia\\cSharp\\zaj2\\zaj2\\NodeT.cs",
               "RelativeDocumentMoniker": "zaj2\\NodeT.cs",
@@ -50,7 +50,8 @@
               "RelativeToolTip": "zaj2\\NodeT.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T16:59:34.658Z"
+              "WhenOpened": "2024-11-05T16:59:34.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,23 +61,22 @@
               "RelativeDocumentMoniker": "zaj2\\Tree.cs",
               "ToolTip": "D:\\studia\\cSharp\\zaj2\\zaj2\\Tree.cs",
               "RelativeToolTip": "zaj2\\Tree.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwC4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwC0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T14:35:55.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "List.cs",
               "DocumentMoniker": "D:\\studia\\cSharp\\zaj2\\zaj2\\List.cs",
               "RelativeDocumentMoniker": "zaj2\\List.cs",
               "ToolTip": "D:\\studia\\cSharp\\zaj2\\zaj2\\List.cs",
               "RelativeToolTip": "zaj2\\List.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T14:17:29.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T14:17:29.283Z"
             },
             {
               "$type": "Document",

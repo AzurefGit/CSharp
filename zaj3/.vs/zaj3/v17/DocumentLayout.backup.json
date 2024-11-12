@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\studia\\cSharp\\zaj3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF57906-8AF3-48DF-9810-55FE74D2CF81}|zaj3\\zaj3.csproj|d:\\studia\\csharp\\zaj3\\zaj3\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF57906-8AF3-48DF-9810-55FE74D2CF81}|zaj3\\zaj3.csproj|solutionrelative:zaj3\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF57906-8AF3-48DF-9810-55FE74D2CF81}|zaj3\\zaj3.csproj|d:\\studia\\csharp\\zaj3\\zaj3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF57906-8AF3-48DF-9810-55FE74D2CF81}|zaj3\\zaj3.csproj|solutionrelative:zaj3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF57906-8AF3-48DF-9810-55FE74D2CF81}|zaj3\\zaj3.csproj|d:\\studia\\csharp\\zaj3\\zaj3\\nodet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF57906-8AF3-48DF-9810-55FE74D2CF81}|zaj3\\zaj3.csproj|solutionrelative:zaj3\\nodet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF57906-8AF3-48DF-9810-55FE74D2CF81}|zaj3\\zaj3.csproj|d:\\studia\\csharp\\zaj3\\zaj3\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF57906-8AF3-48DF-9810-55FE74D2CF81}|zaj3\\zaj3.csproj|solutionrelative:zaj3\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF57906-8AF3-48DF-9810-55FE74D2CF81}|zaj3\\zaj3.csproj|d:\\studia\\csharp\\zaj3\\zaj3\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF57906-8AF3-48DF-9810-55FE74D2CF81}|zaj3\\zaj3.csproj|solutionrelative:zaj3\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF57906-8AF3-48DF-9810-55FE74D2CF81}|zaj3\\zaj3.csproj|D:\\studia\\cSharp\\zaj3\\zaj3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBF57906-8AF3-48DF-9810-55FE74D2CF81}|zaj3\\zaj3.csproj|solutionrelative:zaj3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List.cs",
+              "DocumentMoniker": "D:\\studia\\cSharp\\zaj3\\zaj3\\List.cs",
+              "RelativeDocumentMoniker": "zaj3\\List.cs",
+              "ToolTip": "D:\\studia\\cSharp\\zaj3\\zaj3\\List.cs",
+              "RelativeToolTip": "zaj3\\List.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAA0wG4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:03:30.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Node.cs",
+              "DocumentMoniker": "D:\\studia\\cSharp\\zaj3\\zaj3\\Node.cs",
+              "RelativeDocumentMoniker": "zaj3\\Node.cs",
+              "ToolTip": "D:\\studia\\cSharp\\zaj3\\zaj3\\Node.cs",
+              "RelativeToolTip": "zaj3\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:03:22.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tree.cs",
+              "DocumentMoniker": "D:\\studia\\cSharp\\zaj3\\zaj3\\Tree.cs",
+              "RelativeDocumentMoniker": "zaj3\\Tree.cs",
+              "ToolTip": "D:\\studia\\cSharp\\zaj3\\zaj3\\Tree.cs",
+              "RelativeToolTip": "zaj3\\Tree.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAqwLwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T11:45:57.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NodeT.cs",
+              "DocumentMoniker": "D:\\studia\\cSharp\\zaj3\\zaj3\\NodeT.cs",
+              "RelativeDocumentMoniker": "zaj3\\NodeT.cs",
+              "ToolTip": "D:\\studia\\cSharp\\zaj3\\zaj3\\NodeT.cs",
+              "RelativeToolTip": "zaj3\\NodeT.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T11:45:44.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\studia\\cSharp\\zaj3\\zaj3\\Program.cs",
+              "RelativeDocumentMoniker": "zaj3\\Program.cs",
+              "ToolTip": "D:\\studia\\cSharp\\zaj3\\zaj3\\Program.cs",
+              "RelativeToolTip": "zaj3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T11:44:10.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Projekt]",
+              "DocumentMoniker": "D:\\studia\\cSharp\\zaj3\\zaj3\\Form1.cs",
+              "RelativeDocumentMoniker": "zaj3\\Form1.cs",
+              "ToolTip": "D:\\studia\\cSharp\\zaj3\\zaj3\\Form1.cs [Projekt]",
+              "RelativeToolTip": "zaj3\\Form1.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T11:26:20.679Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
