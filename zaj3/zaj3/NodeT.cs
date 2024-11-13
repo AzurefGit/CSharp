@@ -39,5 +39,22 @@ namespace zaj3
                 dziecko.rodzic = right;
             }
         }
+
+        public int GetLiczbaDzieci() 
+        {
+            int wynik = 0;
+
+            if(this.left != null)
+            { 
+                wynik++;
+            }
+
+            if(this.prawe != null)
+            { 
+                wynik++;
+            }
+            return wynik;
+        }
+
     }
 }

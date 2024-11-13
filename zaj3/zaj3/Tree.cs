@@ -84,12 +84,12 @@ namespace zaj3
             InOrder(root);
         }
 
-        // Metoda usuwania węzła
         public void Delete(int num)
         {
             NodeT current = root;
             NodeT rodzic = null;
 
+            //Szukanie węzła
             while(current.data != num && current != null)
             {
                 rodzic = current;
@@ -166,6 +166,98 @@ namespace zaj3
                 {
                     nastepcaRodzica.right = nastepca.right;
                 }
+            }
+        }
+
+        private void RemoveElementO(NodeT n)
+        {
+            if(this.root == n)
+                this.root = null;
+            else
+            {
+                var rodzic = n.rodzic;
+
+                if(rodzic.left == n)
+                    rodzic.left = null;
+
+                else if(rodzic.right == n)
+                    rodzic.right = null;
+
+                n.rodzic = null;
+            }
+        }
+
+        private void RemoveElement1(NodeT n)
+        {
+            NodeT dziecko = null;
+            if(n.left != null)
+            {
+                dziecko = n.left;
+            }
+            else
+            {
+                dziecko = n.right;
+            }
+
+            this.RemoveElementO(dziecko);
+
+            var rodzic = n.rodzic;
+            this.RemoveElementO(n);
+
+            dziecko.rodzic = rodzic;
+
+            if(rodzic != null)
+            { 
+                if(rodzic.data > dziecko.data)
+                {
+                    rodzic.left = dziecko;
+                }
+                else
+                {
+                    rodzic.right = dziecko;
+                }
+            }
+
+            else
+            {
+                this.root = dziecko;
+            }
+        }
+
+        NodeT Min(NodeT n)
+        {
+            var wynik = n;
+            while (wynik.left != null)
+            {
+                wynik = wynik.left;
+            }
+            return wynik;
+        }
+
+        private void RemoveElement(NodeT n)
+        {
+            switch (n.GetLiczbaDzieci)
+            {
+                case 0:
+                    this.RemoveElementO(n);
+                    break;
+                
+                case 1:
+                    this.RemoveElement1(n);
+                    break;
+
+                case 2:
+                    var k = this.Min(n.right);
+                    this.RemoveElement(k);
+
+                    k.left = n.left;
+                    n.left = null;
+                    k.right = n.right;
+                    n.right = null;
+                    k.rodzic = n.rodzic;
+                    n.rodzic = null;
+
+                    break;
             }
         }
     }
