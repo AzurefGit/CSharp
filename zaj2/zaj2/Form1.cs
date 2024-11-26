@@ -31,6 +31,8 @@ namespace zaj2
                 button3.Enabled = !isTabEmpty;
                 button4.Enabled = !isTabEmpty;
                 button5.Enabled = !isTabEmpty;
+                button6.Enabled = !isTabEmpty;
+                button7.Enabled = !isTabEmpty;
             }
         }
         public Form1()
@@ -140,6 +142,68 @@ namespace zaj2
             }
         }
 
+        static void QuickSort(int[] tab, int l, int p)
+        {
+            if (l < p)
+            {
+                int pivot = tab[(l + p) / 2];
+                int index = Podzial(tab, l, p, pivot);
+
+                QuickSort(tab, l, index - 1);
+                QuickSort(tab, index, p);
+            }
+
+        }
+
+        static int Podzial(int[] tab, int l, int p, int pivot)
+        {
+            while (l <= p)
+            {
+                while (tab[l] < pivot)
+                {
+                    l++;
+                }
+
+                while (tab[p] > pivot)
+                {
+                    p--;
+                }
+
+                if (l <= p)
+                {
+                    int temp = tab[l];
+                    tab[l] = tab[p];
+                    tab[p] = temp;
+
+                    l++;
+                    p--;
+                }
+            }
+            return l;
+        }
+
+        static void CountingSort(int[] tab)
+        {
+            int max = tab.Max();
+            int[] tab2 = new int[max + 1];
+
+            for(int i = 0; i < tab.Length; i++)
+            {
+                tab2[tab[i]]++;
+            }
+
+            for (int i = 0, j = 0; i <= max; i++)
+            {
+                while (tab2[i] > 0)
+                {
+                    tab[j] = i;
+                    j++;
+                    tab2[i]--;
+                }
+            }
+        }
+
+
         static string TabToString(int[] tab, System.Windows.Forms.Label label)
         {
             string text = string.Join(", ", tab);
@@ -198,6 +262,27 @@ namespace zaj2
             label4.Text = watch.Elapsed.TotalMilliseconds.ToString();
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int[] sTab = (int[])Tab.Clone();
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            QuickSort(sTab, 0, sTab.Length - 1);
+            watch.Stop();
+            label5.Text = TabToString(sTab, label5);
+            label4.Text = watch.Elapsed.TotalMilliseconds.ToString();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            int[] sTab = (int[])Tab.Clone();
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            CountingSort(sTab);
+            watch.Stop();
+            label5.Text = TabToString(sTab, label5);
+            label4.Text = watch.Elapsed.TotalMilliseconds.ToString();
+        }
+
+
         private void label1_Click(object sender, EventArgs e)
         {
             
@@ -217,5 +302,7 @@ namespace zaj2
         {
 
         }
+
+        
     }
 }

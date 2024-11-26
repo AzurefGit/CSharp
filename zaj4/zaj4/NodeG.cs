@@ -9,7 +9,7 @@ namespace zaj4
 {
     public class NodeG
     {
-        List<NodeG> sasiedni = new List<NodeG> ();
+        public List<NodeG> sasiedni = new List<NodeG> ();
         public int data;
 
         public NodeG(int liczba)
@@ -20,8 +20,6 @@ namespace zaj4
         public override string ToString()
         {
             return this.data.ToString();
-        }
-
-        
+        }        
     }
 }

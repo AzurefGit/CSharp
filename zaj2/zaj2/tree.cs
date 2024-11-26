@@ -63,19 +63,19 @@ namespace zaj2
         }
     }
 
-    class classMain
-    {
-        static void Main()
-        {
-            Tree t1 = new Tree();
-            t1.AddToTree(2);
-            t1.AddToTree(3);
-            t1.AddToTree(4);
-            t1.AddToTree(2);
-            t1.AddToTree(1);
+    //class classMain
+    //{
+    //    static void Main()
+    //    {
+    //        Tree t1 = new Tree();
+    //        t1.AddToTree(2);
+    //        t1.AddToTree(3);
+    //        t1.AddToTree(4);
+    //        t1.AddToTree(2);
+    //        t1.AddToTree(1);
 
-            t1.InOrder();
+    //        t1.InOrder();
 
-        }
-    }
+    //    }
+    //}
 }

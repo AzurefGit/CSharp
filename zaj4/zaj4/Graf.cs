@@ -16,8 +16,22 @@ namespace zaj4
             {
                 this.nodes.Add(sasiad);
             }
+
+            if (!sasiad.sasiedni.Contains(this.nodes[0]))
+            {
+                sasiad.sasiedni.Add(this.nodes[0]);
+            }
         }
-        //to i Huffman
+        public override string ToString()
+        {
+            string wynik = "";
+            foreach (var node in nodes)
+            {
+                wynik += node.ToString() + " ";
+            }
+            return wynik;
+        }
+        //to i Huffman//
         public void wezlyOdwiedzone()
         {
 
