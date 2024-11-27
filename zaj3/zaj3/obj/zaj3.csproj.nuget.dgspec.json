@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\studia\\cSharp\\zaj3\\zaj3\\zaj3.csproj": {}
+    "D:\\175271\\cSharp\\zaj3\\zaj3\\zaj3.csproj": {}
   },
   "projects": {
-    "D:\\studia\\cSharp\\zaj3\\zaj3\\zaj3.csproj": {
+    "D:\\175271\\cSharp\\zaj3\\zaj3\\zaj3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\studia\\cSharp\\zaj3\\zaj3\\zaj3.csproj",
+        "projectUniqueName": "D:\\175271\\cSharp\\zaj3\\zaj3\\zaj3.csproj",
         "projectName": "zaj3",
-        "projectPath": "D:\\studia\\cSharp\\zaj3\\zaj3\\zaj3.csproj",
-        "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "D:\\studia\\cSharp\\zaj3\\zaj3\\obj\\",
+        "projectPath": "D:\\175271\\cSharp\\zaj3\\zaj3\\zaj3.csproj",
+        "packagesPath": "C:\\Users\\local\\.nuget\\packages\\",
+        "outputPath": "D:\\175271\\cSharp\\zaj3\\zaj3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\local\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,15 +50,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
