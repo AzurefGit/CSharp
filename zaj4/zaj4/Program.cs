@@ -22,10 +22,25 @@ namespace zaj4
 
             //-----------------------------------
 
+            NodeG1 node1 = new NodeG1(1);
+            NodeG1 node2 = new NodeG1(2);
+            NodeG1 node3 = new NodeG1(3);
+            NodeG1 node4 = new NodeG1(4);
+
+            Edge edge1 = new Edge(node1, node2, 4);
+            Edge edge2 = new Edge(node1, node3, 1);
+            Edge edge3 = new Edge(node2, node3, 2);
+            Edge edge4 = new Edge(node2, node4, 5);
+
+            Graf1 graf = new Graf1(edge1);
+            graf.Add(edge2);
+            graf.Add(edge3);
+            graf.Add(edge4);
 
 
-//            ApplicationConfiguration.Initialize();
-//            Application.Run(new Form1());
+
+            //            ApplicationConfiguration.Initialize();
+            //            Application.Run(new Form1());
         }
     }
 }
