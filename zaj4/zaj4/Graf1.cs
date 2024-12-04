@@ -17,19 +17,18 @@ namespace zaj4
 
         public int IleNowychWezlow(Edge k)
         {
-            int newNodesCount = 0;
+            int counter = 0;
             if (!nodes.Contains(k.start))
             {
-                newNodesCount++;
+                counter++;
             }
-
 
             if (!nodes.Contains(k.end))
             {
-                newNodesCount++;
+                counter++;
             }
 
-            return newNodesCount;
+            return counter;
         }
 
         public void Add(Edge k)
@@ -56,6 +55,50 @@ namespace zaj4
                 this.Add(g1.edges[i]);
             }
 
+        }
+
+        public Graf1 AlgorytmKruskala()
+        {
+            
+            var krawedzie = this.edges.OrderBy(k->k.weight).ToList;
+            var grafy = new List<Graf1>() { new Graf1(krawedzie)[0] };
+
+            for (int i = 1; i < krawedzie.Count; i++)
+            {
+                var k = krawedzie[i];
+                var l = -1;
+                for (int j = 0; j < grafy.Count; j++)
+                {
+                    var g = grafy[j];
+                    switch (g.IleNowychWezlow(k))
+                    {
+                        case 2:
+                            grafy.Add(new Graf1(k));
+                            j = grafy.Count;
+                            break;
+
+                        case 0:
+                            j = grafy.Count;
+                            break;
+
+                        case 1:
+                            if(l == -1)
+                            {
+                                g.Add(k);
+                                l = j;
+                            }
+                            else
+                            {
+                                grafy[l].Join(g);
+                                grafy.RemoveAt(j);
+                                j = grafy.Count;
+                            }
+                            break;
+                    }
+                }  
+            }
+
+            return grafy[0];
         }
     }
 }
