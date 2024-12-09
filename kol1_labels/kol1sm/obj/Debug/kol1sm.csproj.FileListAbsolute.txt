@@ -8,3 +8,13 @@ D:\studia\cSharp\kol1sm\kol1sm\obj\Debug\kol1sm.csproj.GenerateResource.cache
 D:\studia\cSharp\kol1sm\kol1sm\obj\Debug\kol1sm.csproj.CoreCompileInputs.cache
 D:\studia\cSharp\kol1sm\kol1sm\obj\Debug\kol1sm.exe
 D:\studia\cSharp\kol1sm\kol1sm\obj\Debug\kol1sm.pdb
+D:\studia\cSharp\kol1_labels\kol1sm\bin\Debug\kol1sm.exe.config
+D:\studia\cSharp\kol1_labels\kol1sm\bin\Debug\kol1sm.exe
+D:\studia\cSharp\kol1_labels\kol1sm\bin\Debug\kol1sm.pdb
+D:\studia\cSharp\kol1_labels\kol1sm\obj\Debug\kol1sm.csproj.AssemblyReference.cache
+D:\studia\cSharp\kol1_labels\kol1sm\obj\Debug\kol1sm.Form1.resources
+D:\studia\cSharp\kol1_labels\kol1sm\obj\Debug\kol1sm.Properties.Resources.resources
+D:\studia\cSharp\kol1_labels\kol1sm\obj\Debug\kol1sm.csproj.GenerateResource.cache
+D:\studia\cSharp\kol1_labels\kol1sm\obj\Debug\kol1sm.csproj.CoreCompileInputs.cache
+D:\studia\cSharp\kol1_labels\kol1sm\obj\Debug\kol1sm.exe
+D:\studia\cSharp\kol1_labels\kol1sm\obj\Debug\kol1sm.pdb
