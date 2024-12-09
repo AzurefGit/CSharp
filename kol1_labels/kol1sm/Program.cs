@@ -18,6 +18,7 @@ namespace kol1sm
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 
+            // //Zmienic void -> int[] RandTab... // //
             //var tab = Form1.RandTab(5, 1, 9);
             //var unTab = Form1.PrintTab(tab);
             //Form1.MS(tab, 0, tab.Length - 1);

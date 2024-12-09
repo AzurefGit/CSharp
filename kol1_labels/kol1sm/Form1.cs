@@ -24,7 +24,7 @@ namespace kol1sm
         }
 
 
-        public static int[] RandTab(int n, int a, int b)
+        public static void RandTab(int n, int a, int b)
         {
             tab = new int[n];
             Random rand = new Random();
@@ -33,7 +33,6 @@ namespace kol1sm
             {
                 tab[i] = rand.Next(a, b);
             }
-            return tab;
         }
 
         public static void BubbleSort(int[] tab)
@@ -187,7 +186,7 @@ namespace kol1sm
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var tab = Form1.RandTab(5, 1, 9);
+            RandTab(5, 1, 9);
             label1.Text = PrintTab(tab);
         }
 
