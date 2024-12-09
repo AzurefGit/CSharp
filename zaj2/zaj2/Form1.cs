@@ -41,6 +41,7 @@ namespace zaj2
             
         }
 
+
         public void RandTab(int n, int a, int b)
         {
             Tab = new int[n];
@@ -50,6 +51,7 @@ namespace zaj2
                 tab[i] = rand.Next(a, b);
             }
         }
+        
 
         public void Convert()
         {
@@ -71,13 +73,14 @@ namespace zaj2
                 {
                     if (tab[j] > tab[j + 1])
                     {
-                        temp = tab[j + 1];
-                        tab[j + 1] = tab[j];
-                        tab[j] = temp;
+                        temp = tab[j];
+                        tab[j] = tab[j + 1];
+                        tab[j + 1] = temp;
                     }
                 }
             }
         }
+
 
         static void InsertSort(int[] tab)
         {
@@ -87,77 +90,77 @@ namespace zaj2
                 int j = i;
                 while (j > 0 && tab[j - 1] > tab[j])
                 {
-                 temp = tab[j - 1];
-                 tab[j - 1] = tab[j];
-                 tab[j] = temp; 
-                 j--;
+                    temp = tab[j];
+                    tab[j] = tab[j - 1];
+                    tab[j - 1] = temp;
+                    j--;
                 }
             }
         }
-
-        static void MergeSort(int[] tab, int p, int r)
+        static void MergeSort(int[] tab, int l, int p)
         {
-            if (p < r)
+            if (l < p)
             {
-                int q = (p + r) / 2;
-                MergeSort(tab, p, q);
-                MergeSort(tab, q + 1, r);
-                Merge(tab, p, q, r);
+                int mid = (l + p) / 2;
+                MergeSort(tab, l, mid);
+                MergeSort(tab, mid + 1, p);
+                Merge(tab, l, p, mid);
             }
         }
 
-        static void Merge(int[] tab, int p, int q, int r)
+        static void Merge(int[] tab, int l, int p, int mid)
         {
-            int lIndex = p;
-            int rIndex = q + 1;
+            int lIndex = l;
+            int pIndex = mid + 1;
+            int mIndex = 0;
 
-            int[] merged = new int[r - p + 1];
-            int mergedIndex = 0;
+            int[] merged = new int[p - l + 1];
+            
 
-            while (lIndex <= q && rIndex <= r)
+            while (lIndex <= mid && pIndex <= p)
             {
-                if (tab[lIndex] <= tab[rIndex])
+                if (tab[lIndex] <= tab[pIndex])
                 {
-                    merged[mergedIndex++] = tab[lIndex++];
+                    merged[mIndex++] = tab[lIndex++];
                 }
                 else
                 {
-                    merged[mergedIndex++] = tab[rIndex++];
+                    merged[mIndex++] = tab[pIndex++];
                 }
             }
 
-            while (lIndex <= q)
+            while (lIndex <= mid)
             {
-                merged[mergedIndex++] = tab[lIndex++];
+                merged[mIndex++] = tab[lIndex++];
             }
 
-            while (rIndex <= r)
+            while (pIndex <= p)
             {
-                merged[mergedIndex++] = tab[rIndex++];
+                merged[mIndex++] = tab[pIndex++];
             }
 
             for (int i = 0; i < merged.Length; i++)
             {
-                tab[p + i] = merged[i];
+                tab[l + i] = merged[i];
             }
         }
 
         static void QuickSort(int[] tab, int l, int p)
         {
-            if (l < p)
+            if(l < p)
             {
                 int pivot = tab[(l + p) / 2];
-                int index = Podzial(tab, l, p, pivot);
+                int index = Divide(tab, l, p, pivot);
 
                 QuickSort(tab, l, index - 1);
                 QuickSort(tab, index, p);
             }
-
         }
 
-        static int Podzial(int[] tab, int l, int p, int pivot)
+
+        static int Divide(int[] tab, int l, int p, int pivot)
         {
-            while (l <= p)
+            while(l <= p)
             {
                 while (tab[l] < pivot)
                 {
@@ -169,7 +172,7 @@ namespace zaj2
                     p--;
                 }
 
-                if (l <= p)
+                if(l <= p)
                 {
                     int temp = tab[l];
                     tab[l] = tab[p];
@@ -187,7 +190,7 @@ namespace zaj2
             int max = tab.Max();
             int[] tab2 = new int[max + 1];
 
-            for(int i = 0; i < tab.Length; i++)
+            for (int i = 0; i < tab.Length; i++)
             {
                 tab2[tab[i]]++;
             }
