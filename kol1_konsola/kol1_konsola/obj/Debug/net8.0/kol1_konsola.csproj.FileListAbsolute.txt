@@ -1,0 +1,15 @@
+D:\studia\cSharp\kol1_konsola\kol1_konsola\bin\Debug\net8.0\kol1_konsola.exe
+D:\studia\cSharp\kol1_konsola\kol1_konsola\bin\Debug\net8.0\kol1_konsola.deps.json
+D:\studia\cSharp\kol1_konsola\kol1_konsola\bin\Debug\net8.0\kol1_konsola.runtimeconfig.json
+D:\studia\cSharp\kol1_konsola\kol1_konsola\bin\Debug\net8.0\kol1_konsola.dll
+D:\studia\cSharp\kol1_konsola\kol1_konsola\bin\Debug\net8.0\kol1_konsola.pdb
+D:\studia\cSharp\kol1_konsola\kol1_konsola\obj\Debug\net8.0\kol1_konsola.GeneratedMSBuildEditorConfig.editorconfig
+D:\studia\cSharp\kol1_konsola\kol1_konsola\obj\Debug\net8.0\kol1_konsola.AssemblyInfoInputs.cache
+D:\studia\cSharp\kol1_konsola\kol1_konsola\obj\Debug\net8.0\kol1_konsola.AssemblyInfo.cs
+D:\studia\cSharp\kol1_konsola\kol1_konsola\obj\Debug\net8.0\kol1_konsola.csproj.CoreCompileInputs.cache
+D:\studia\cSharp\kol1_konsola\kol1_konsola\obj\Debug\net8.0\kol1_konsola.sourcelink.json
+D:\studia\cSharp\kol1_konsola\kol1_konsola\obj\Debug\net8.0\kol1_konsola.dll
+D:\studia\cSharp\kol1_konsola\kol1_konsola\obj\Debug\net8.0\refint\kol1_konsola.dll
+D:\studia\cSharp\kol1_konsola\kol1_konsola\obj\Debug\net8.0\kol1_konsola.pdb
+D:\studia\cSharp\kol1_konsola\kol1_konsola\obj\Debug\net8.0\kol1_konsola.genruntimeconfig.cache
+D:\studia\cSharp\kol1_konsola\kol1_konsola\obj\Debug\net8.0\ref\kol1_konsola.dll
