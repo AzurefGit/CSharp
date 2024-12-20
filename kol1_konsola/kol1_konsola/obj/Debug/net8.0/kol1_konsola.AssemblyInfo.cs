@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kol1_konsola")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d87f9b4ee3b108f92a5e356b241463bea96040cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6721f6eb7d522287ba6733a26e72b6b687b59809")]
 [assembly: System.Reflection.AssemblyProductAttribute("kol1_konsola")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kol1_konsola")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

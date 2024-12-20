@@ -1,0 +1,17 @@
+D:\studia\cSharp\Zaj5\Zaj5\bin\Debug\net8.0-windows\Zaj5.exe
+D:\studia\cSharp\Zaj5\Zaj5\bin\Debug\net8.0-windows\Zaj5.deps.json
+D:\studia\cSharp\Zaj5\Zaj5\bin\Debug\net8.0-windows\Zaj5.runtimeconfig.json
+D:\studia\cSharp\Zaj5\Zaj5\bin\Debug\net8.0-windows\Zaj5.dll
+D:\studia\cSharp\Zaj5\Zaj5\bin\Debug\net8.0-windows\Zaj5.pdb
+D:\studia\cSharp\Zaj5\Zaj5\obj\Debug\net8.0-windows\Zaj5.Form1.resources
+D:\studia\cSharp\Zaj5\Zaj5\obj\Debug\net8.0-windows\Zaj5.csproj.GenerateResource.cache
+D:\studia\cSharp\Zaj5\Zaj5\obj\Debug\net8.0-windows\Zaj5.GeneratedMSBuildEditorConfig.editorconfig
+D:\studia\cSharp\Zaj5\Zaj5\obj\Debug\net8.0-windows\Zaj5.AssemblyInfoInputs.cache
+D:\studia\cSharp\Zaj5\Zaj5\obj\Debug\net8.0-windows\Zaj5.AssemblyInfo.cs
+D:\studia\cSharp\Zaj5\Zaj5\obj\Debug\net8.0-windows\Zaj5.csproj.CoreCompileInputs.cache
+D:\studia\cSharp\Zaj5\Zaj5\obj\Debug\net8.0-windows\Zaj5.sourcelink.json
+D:\studia\cSharp\Zaj5\Zaj5\obj\Debug\net8.0-windows\Zaj5.dll
+D:\studia\cSharp\Zaj5\Zaj5\obj\Debug\net8.0-windows\refint\Zaj5.dll
+D:\studia\cSharp\Zaj5\Zaj5\obj\Debug\net8.0-windows\Zaj5.pdb
+D:\studia\cSharp\Zaj5\Zaj5\obj\Debug\net8.0-windows\Zaj5.genruntimeconfig.cache
+D:\studia\cSharp\Zaj5\Zaj5\obj\Debug\net8.0-windows\ref\Zaj5.dll
