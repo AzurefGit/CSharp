@@ -110,7 +110,7 @@ namespace zaj4
                 table.Add(new Element
                 {
                     nodeGW = wezel,
-                    dystans = (wezel.Equals(elementStartowy)) ? 0 : int.MaxValue,  // Startowy węzeł ma dystans 0, reszta ma dystans nieskończoności
+                    dystans = (wezel.Equals(elementStartowy)) ? 0 : int.MaxValue,
                     poprzednik = null
                 });
             }
@@ -118,52 +118,34 @@ namespace zaj4
             return table;
         }
 
-        // klasa element
-        // nodegw wezel
-        // int dystans
-        // nodegw poprzednik
         public List<Element> AlgorytmDjikstry(NodeGW elementStartowy)
         {
-            //var tabelka = PrzygotujTabele(elementStartowy);
-            //var zbiorS = new List<NodeGW>();
-            //var kandydaci = tabelka.Where(e => !zbiorS.Contains(e.wezel));
-            //var kandydat = kandydaci.OrderBy(e => e.dystans).First();
-            //var sasiedzi = edges.Where(k => k.start) == kandydat.wezel).ToList();
-            // Przygotowanie tabeli
             List<EdgeGW> edges = new List<EdgeGW>();
             var tabelka = PrzygotujTabele(elementStartowy);
 
-            // Zbiór odwiedzonych węzłów
             var zbiorS = new List<NodeGW>();
 
-            // Pętla, która przechodzi przez wszystkie węzły grafu
             while (zbiorS.Count < edges.Count)
             {
-                // Kandydaci to węzły, które nie zostały jeszcze odwiedzone
                 var kandydaci = tabelka.Where(e => !zbiorS.Contains(e.nodeGW)).ToList();
 
-                // Wybór węzła z najmniejszym dystansem
                 var kandydat = kandydaci.OrderBy(e => e.dystans).First();
-
-                // Dodanie węzła do zbioru odwiedzonych
                 zbiorS.Add(kandydat.nodeGW);
 
-                // Pobranie sąsiadów kandydata
                 var sasiedzi = edges.Where(k => k.start == kandydat.nodeGW).ToList();
 
-                // Dla każdego sąsiada aktualizowanie dystansu, jeśli znaleziono krótszą drogę
                 foreach (var sasiedziKrawedz in sasiedzi)
                 {
                     var sasiedniWezel = sasiedziKrawedz.end;
                     var nowyDystans = kandydat.dystans + sasiedziKrawedz.weight;
-
-                    // Jeśli znaleziono krótszy dystans do sąsiada, aktualizuj tabelę
                     var sasiedniElement = tabelka.FirstOrDefault(e => e.nodeGW == sasiedniWezel);
+
                     if (sasiedniElement != null && nowyDystans < sasiedniElement.dystans)
                     {
                         sasiedniElement.dystans = nowyDystans;
                         sasiedniElement.poprzednik = kandydat.nodeGW;
                     }
+
                 }
             }
             return tabelka;
